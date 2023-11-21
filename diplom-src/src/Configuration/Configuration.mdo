@@ -50,11 +50,11 @@
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.Деньги</subsystems>
+  <subsystems>Subsystem.ДобавленныеОбъекты</subsystems>
+  <subsystems>Subsystem.ОбслуживаниеКлиентов</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
-  <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
-  <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>
@@ -556,6 +556,7 @@
   <roles>Role.НастройкаИОценкаПроизводительности</roles>
   <roles>Role.НастройкаСинхронизацииФайлов</roles>
   <roles>Role.ОбновлениеКонфигурацииБазыДанных</roles>
+  <roles>Role.ОбслуживаниеКлиентов</roles>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ПросмотрЖурналаРегистрации</roles>
   <roles>Role.ПросмотрОписанияИзмененийПрограммы</roles>
@@ -986,6 +987,7 @@
   <constants>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
   <constants>Constant.ЗапрещатьЗагрузкуФайловПоРасширению</constants>
+  <constants>Constant.ИдентификаторГруппыДляОповещения</constants>
   <constants>Constant.ИдентификаторИнформационнойБазы</constants>
   <constants>Constant.ИзвлекатьТекстыФайловНаСервере</constants>
   <constants>Constant.ИспользоватьВнешнихПользователей</constants>
@@ -1037,6 +1039,7 @@
   <constants>Constant.СписокРасширенийФайловOpenDocumentОбластиДанных</constants>
   <constants>Constant.СпособХраненияФайлов</constants>
   <constants>Constant.СтандартныеПодсистемыВАвтономномРежиме</constants>
+  <constants>Constant.ТокенУправленияТелеграмБотом</constants>
   <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
   <constants>Constant.УчетнаяЗаписьДляВосстановленияПароля</constants>
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
@@ -1097,6 +1100,7 @@
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <catalogs>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
   <catalogs>Catalog.ГруппыДоступа</catalogs>
@@ -1137,11 +1141,11 @@
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.ОбслуживаниеКлиента</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
-  <documents>Document.ВКМ_ОбслуживаниеКлиентов</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыПериода</enums>
@@ -1287,6 +1291,7 @@
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВыполненныеКлиентуРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПоставщикам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Затраты</accumulationRegisters>

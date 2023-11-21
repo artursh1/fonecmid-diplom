@@ -13,17 +13,17 @@
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="fedf4436-da37-485f-8312-f9526a9d41b2">
-    <name>Поставщик</name>
+    <name>КупляПродажа</name>
     <synonym>
       <key>ru</key>
-      <value>Поставщик</value>
+      <value>Купля продажа</value>
     </synonym>
   </enumValues>
   <enumValues uuid="05cf7625-5d6d-4d47-80fe-ad6a90a4e195">
-    <name>Покупатель</name>
+    <name>АбонентскоеОбслуживание</name>
     <synonym>
       <key>ru</key>
-      <value>Покупатель</value>
+      <value>Абонентское обслуживание</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

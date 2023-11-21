@@ -132,7 +132,7 @@
     <choiceParameters>
       <name>Отбор.ВидДоговора</name>
       <value xsi:type="core:ReferenceValue">
-        <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.Покупатель</value>
+        <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.АбонентскоеОбслуживание</value>
       </value>
     </choiceParameters>
     <fillFromFillingValue>true</fillFromFillingValue>
