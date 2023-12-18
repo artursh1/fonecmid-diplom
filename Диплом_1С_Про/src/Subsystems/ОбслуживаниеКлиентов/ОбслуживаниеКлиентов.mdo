@@ -14,4 +14,5 @@
   <content>DataProcessor.ОтладкаЗадания</content>
   <content>ScheduledJob.ОтправкаУведомленийВТелеграм</content>
   <content>DataProcessor.КалендарьСпециалистов</content>
+  <content>DataProcessor.МассовоеСозданиеАктов</content>
 </mdclass:Subsystem>
