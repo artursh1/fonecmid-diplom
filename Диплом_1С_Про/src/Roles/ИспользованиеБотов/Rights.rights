@@ -5438,7 +5438,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВыполненныеКлиентуРаботы.StandardAttribute.RecordType</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardAttribute.RecordType</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -5449,7 +5449,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВыполненныеКлиентуРаботы.StandardAttribute.Active</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -5460,7 +5460,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВыполненныеКлиентуРаботы.StandardAttribute.LineNumber</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardAttribute.LineNumber</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -5471,7 +5471,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВыполненныеКлиентуРаботы.StandardAttribute.Recorder</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardAttribute.Recorder</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -5482,7 +5482,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВыполненныеКлиентуРаботы.StandardAttribute.Period</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardAttribute.Period</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -12313,7 +12313,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВыполненныеКлиентуРаботы.Dimension.Клиент</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.Dimension.Клиент</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -16636,7 +16636,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВыполненныеКлиентуРаботы.Resource.СуммаКОплате</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.Resource.СуммаКОплате</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -17373,7 +17373,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВыполненныеКлиентуРаботы.Resource.КоличествоЧасов</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.Resource.КоличествоЧасов</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -18847,7 +18847,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВыполненныеКлиентуРаботы.Dimension.Договор</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.Dimension.Договор</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

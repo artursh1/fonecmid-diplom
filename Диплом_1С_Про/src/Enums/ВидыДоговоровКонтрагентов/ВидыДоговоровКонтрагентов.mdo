@@ -20,7 +20,7 @@
     </synonym>
   </enumValues>
   <enumValues uuid="05cf7625-5d6d-4d47-80fe-ad6a90a4e195">
-    <name>АбонентскоеОбслуживание</name>
+    <name>ВКМ_АбонентскоеОбслуживание</name>
     <synonym>
       <key>ru</key>
       <value>Абонентское обслуживание</value>

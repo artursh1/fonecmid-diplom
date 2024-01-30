@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf182b2f-2876-43fe-802b-c6825a345957">
+  <producedTypes>
+    <objectType typeId="fde306d0-a4e9-4119-b455-ffbbcf86602f" valueTypeId="a0a75638-f616-41ba-a951-626fce2cf6c2"/>
+    <managerType typeId="7570a815-e008-41fa-a6ab-9a7544ebd8dd" valueTypeId="1f9270ce-1729-4a5e-b565-0cfc7e0258d1"/>
+  </producedTypes>
+  <name>ВКМ_РасчетыССотрудниками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты с сотрудниками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВКМ_РасчетыССотрудниками.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="a2066a12-c063-4ec6-9047-bb639ef2a20d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
