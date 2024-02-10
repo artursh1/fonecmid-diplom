@@ -3,6 +3,6 @@
   <name>ВКМ_ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
-    <value>ОбслуживаниеКлиентов</value>
+    <value>ВКМ_ОбслуживаниеКлиентов</value>
   </synonym>
 </mdclass:Role>
