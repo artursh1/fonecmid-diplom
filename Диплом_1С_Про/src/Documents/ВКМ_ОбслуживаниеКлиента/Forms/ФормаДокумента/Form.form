@@ -297,6 +297,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ДатаПроведенияРабот</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ДатаПроведенияРаботПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ДатаПроведенияРаботРасширеннаяПодсказка</name>
           <id>18</id>

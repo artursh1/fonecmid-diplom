@@ -206,7 +206,7 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ВКМ_МассовоеСозданиеАктов</name>
+		<name>DataProcessor.ВКМ_МассовоеСозданиеАктовВФоне</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

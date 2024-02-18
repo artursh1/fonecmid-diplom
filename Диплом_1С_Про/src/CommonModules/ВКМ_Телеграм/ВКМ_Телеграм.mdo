@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79bc353c-2ab8-4090-8d13-18c1fcffd82b">
-  <name>Телеграм</name>
+  <name>ВКМ_Телеграм</name>
   <synonym>
     <key>ru</key>
     <value>Телеграм</value>
