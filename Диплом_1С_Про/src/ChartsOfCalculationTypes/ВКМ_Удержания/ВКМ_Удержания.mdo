@@ -89,6 +89,9 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>OnRegistrationPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
   <standardTabularSections>
     <name>BaseCalculationTypes</name>
     <synonym>
@@ -185,13 +188,4 @@
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
   </standardTabularSections>
-  <predefined>
-    <items id="14a86f85-cbcf-4bab-b1b0-a9618966c40c">
-      <name>НДФЛ</name>
-      <description>НДФЛ</description>
-      <code xsi:type="core:StringValue">
-        <value>1</value>
-      </code>
-    </items>
-  </predefined>
 </mdclass:ChartOfCalculationTypes>

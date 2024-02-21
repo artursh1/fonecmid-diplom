@@ -16,6 +16,6 @@
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>CalculationRegister.ВКМ_Удержания</content>
   <content>InformationRegister.ВКМ_ГрафикиОтпусков</content>
-  <content>AccumulationRegister.ВКМ_ДниОтпуска</content>
+  <content>4afc7566-ad54-44f1-9b30-597626ee4366</content>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>

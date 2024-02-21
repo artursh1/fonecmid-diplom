@@ -49,25 +49,8 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="37005e45-7cf4-4f0b-a534-557354e3429f">
-    <name>Значение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Значение</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <dimensions uuid="16294eef-c038-4ed7-b6f6-06291960ea4b">
     <name>Дата</name>
     <synonym>
@@ -94,11 +77,89 @@
       <value>Сотрудник</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>CatalogRef.ВКМ_ФизическиеЛица</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="158101da-7a09-4179-b35f-4cd9a1d06b6e">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yyyy</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="115c03ca-e53e-4187-8047-7367d09d5a96">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yyyy</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="64547ad4-bc49-41e5-b206-74b1be9eae90">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=yyyy</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>

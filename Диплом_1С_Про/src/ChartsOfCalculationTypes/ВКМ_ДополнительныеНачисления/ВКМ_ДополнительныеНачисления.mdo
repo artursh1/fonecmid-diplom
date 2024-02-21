@@ -89,7 +89,9 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <actionPeriodUse>true</actionPeriodUse>
+  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
   <standardTabularSections>
     <name>BaseCalculationTypes</name>
     <synonym>
@@ -186,13 +188,4 @@
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
   </standardTabularSections>
-  <predefined>
-    <items id="b424b37c-8d8a-459d-95ce-7bda70a754f4">
-      <name>Премия</name>
-      <description>Премия</description>
-      <code xsi:type="core:StringValue">
-        <value>1</value>
-      </code>
-    </items>
-  </predefined>
 </mdclass:ChartOfCalculationTypes>

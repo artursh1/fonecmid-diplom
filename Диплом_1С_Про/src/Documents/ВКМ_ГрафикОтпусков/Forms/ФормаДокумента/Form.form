@@ -731,7 +731,13 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
-        <command>AccumulationRegister.ВКМ_ДниОтпуска.StandardCommand.OpenByRecorder</command>
+        <command>1:4afc7566-ad54-44f1-9b30-597626ee4366</command>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
+      <cmiFragmentRecord>
+        <command>InformationRegister.ВКМ_ГрафикиОтпусков.StandardCommand.OpenByRecorder</command>
         <userVisible>
           <common>true</common>
         </userVisible>

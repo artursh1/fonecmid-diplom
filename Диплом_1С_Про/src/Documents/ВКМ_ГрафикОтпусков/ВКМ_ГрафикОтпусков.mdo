@@ -65,7 +65,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ВКМ_ГрафикОтпусков.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.ВКМ_ДниОтпуска</registerRecords>
+  <registerRecords>InformationRegister.ВКМ_ГрафикиОтпусков</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="acc370d8-b3b7-4c4c-af6d-d7e482bde42f">
@@ -80,6 +80,14 @@
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=гггг</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=гггг</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
