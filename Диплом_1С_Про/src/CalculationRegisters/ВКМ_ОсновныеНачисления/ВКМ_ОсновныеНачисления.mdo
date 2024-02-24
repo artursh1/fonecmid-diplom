@@ -142,6 +142,7 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
+        <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -194,6 +195,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <scheduleLink>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.ГрафикРаботы</scheduleLink>
   </attributes>
   <dimensions uuid="46499bad-be7d-45e4-81f2-2ee96720b8fc">
     <name>Сотрудник</name>

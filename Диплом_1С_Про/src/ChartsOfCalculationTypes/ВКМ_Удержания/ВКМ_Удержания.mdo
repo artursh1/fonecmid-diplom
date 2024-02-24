@@ -188,4 +188,15 @@
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
   </standardTabularSections>
+  <predefined>
+    <items id="8037906f-4e92-44a4-8be9-b2136c60b449">
+      <name>НДФЛ</name>
+      <description>НДФЛ</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.Премия</base>
+    </items>
+  </predefined>
 </mdclass:ChartOfCalculationTypes>

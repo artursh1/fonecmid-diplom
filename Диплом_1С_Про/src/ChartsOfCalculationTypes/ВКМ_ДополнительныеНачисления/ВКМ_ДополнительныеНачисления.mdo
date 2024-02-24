@@ -188,4 +188,13 @@
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
   </standardTabularSections>
+  <predefined>
+    <items id="b3de66c4-73d6-4ed7-84e8-dd7dc2ec6ccb">
+      <name>Премия</name>
+      <description>Премия</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+    </items>
+  </predefined>
 </mdclass:ChartOfCalculationTypes>

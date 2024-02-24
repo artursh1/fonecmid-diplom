@@ -128,20 +128,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <attributes uuid="f3a645a8-9a75-438e-a590-7fa1e619536c">
-    <name>База</name>
-    <synonym>
-      <key>ru</key>
-      <value>База</value>
-    </synonym>
-    <type>
-      <types>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</types>
-      <types>ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </attributes>
   <dimensions uuid="860f0d95-49a1-4208-b346-660b2e45c6f6">
     <name>Сотрудник</name>
     <synonym>

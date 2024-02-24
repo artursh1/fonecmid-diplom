@@ -187,4 +187,28 @@
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
   </standardTabularSections>
+  <predefined>
+    <items id="ee1dea8b-5cb1-41d4-9136-43df988d60ff">
+      <name>Оклад</name>
+      <description>Оклад</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+    </items>
+    <items id="ff32e0df-ccd4-4971-b8f7-29661fdf99e3">
+      <name>Отпуск</name>
+      <description>Отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
+    </items>
+    <items id="d30d54d5-73ec-401c-a035-813ecc599057">
+      <name>ПроцентОтРабот</name>
+      <description>Процент от работ</description>
+      <code xsi:type="core:StringValue">
+        <value>3</value>
+      </code>
+    </items>
+  </predefined>
 </mdclass:ChartOfCalculationTypes>
